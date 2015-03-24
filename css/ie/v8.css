@@ -19,11 +19,12 @@
 /* Banner */
 
 	#banner {
-		background-image: url("../../images/banner.jpg");
+		background-image: url("images/glenabog_adam_kristen0047.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-position: auto;
+		background-position: center center;
 		-ms-behavior: url("css/ie/backgroundsize.min.htc");
+		position: relative;
 	}
 
 		#banner .inner {
