@@ -82,6 +82,10 @@
 		letter-spacing: 0.025em;
 	}
 
+	h4 em {
+		font-style: italic;
+	}
+
 	sub {
 		font-size: 0.8em;
 		position: relative;
@@ -172,6 +176,18 @@
 
 	footer.major {
 		padding-top: 3em;
+	}
+
+	p.paragraph-text {
+		font-size: 10pt;
+	}
+
+	div.the-bride {
+		float: right;
+	}
+
+	div.align-left {
+		text-align: left;
 	}
 
 /* Form */

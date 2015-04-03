@@ -21,45 +21,45 @@
 				config: {
 					transformTest: function() { return (skel.vars.isMobile); }
 				},
-				topPanel: {
-					states: '/global/wide/normal/narrow/narrower/mobile',
-					position: 'top-center',
-					side: 'top',
-					hidden: true,
-					animation: 'pushY',
-					width: '100%',
-					height: 275,
-					html: '<nav data-action="navList" data-args="nav"></nav>',
-					clickToHide: true,
-					swipeToHide: false,
-					orientation: 'vertical'
-				},
-				topButton: {
-					states: '/global/wide/normal/narrow/narrower/mobile',
-					position: 'top-center',
-					width: 120,
-					height: 50,
-					html: '<span class="toggle" data-action="toggleLayer" data-args="topPanel"></span>'
-				},
-				sidePanel: {
-					states: '/global/wide/normal/narrow/narrower',
-					position: 'top-left',
-					side: 'left',
-					hidden: true,
-					animation: 'revealX',
-					width: 250,
-					height: '100%',
-					html: '<nav data-action="navList" data-args="nav"></nav>',
-					clickToHide: true,
-					orientation: 'vertical'
-				},
-				sideButton: {
-					states: '/global/wide/normal/narrow/narrower',
-					position: 'top-left',
-					width: 100,
-					height: 60,
-					html: '<span class="toggle" data-action="toggleLayer" data-args="sidePanel"></span>'
-				}
+				// topPanel: {
+				// 	states: '/global/wide/normal/narrow/narrower/mobile',
+				// 	position: 'top-center',
+				// 	side: 'top',
+				// 	hidden: true,
+				// 	animation: 'pushY',
+				// 	width: '100%',
+				// 	height: 275,
+				// 	html: '<nav data-action="navList" data-args="nav"></nav>',
+				// 	clickToHide: true,
+				// 	swipeToHide: false,
+				// 	orientation: 'vertical'
+				// },
+				// topButton: {
+				// 	states: '/global/wide/normal/narrow/narrower/mobile',
+				// 	position: 'top-center',
+				// 	width: 120,
+				// 	height: 50,
+				// 	html: '<span class="toggle" data-action="toggleLayer" data-args="topPanel"></span>'
+				// },
+				// sidePanel: {
+				// 	states: '/global/wide/normal/narrow/narrower',
+				// 	position: 'top-left',
+				// 	side: 'left',
+				// 	hidden: true,
+				// 	animation: 'revealX',
+				// 	width: 250,
+				// 	height: '100%',
+				// 	html: '<nav data-action="navList" data-args="nav"></nav>',
+				// 	clickToHide: true,
+				// 	orientation: 'vertical'
+				// },
+				// sideButton: {
+				// 	states: '/global/wide/normal/narrow/narrower',
+				// 	position: 'top-left',
+				// 	width: 100,
+				// 	height: 60,
+				// 	html: '<span class="toggle" data-action="toggleLayer" data-args="sidePanel"></span>'
+				// }
 			}
 		}
 	});
@@ -73,7 +73,7 @@
 
 		// Disable animations/transitions until the page has loaded.
 			$body.addClass('is-loading');
-			
+
 			$window.on('load', function() {
 				$body.removeClass('is-loading');
 			});
@@ -92,7 +92,7 @@
 				}
 
 			}
-			
+
 		// Scrolly links.
 			$('.scrolly').scrolly(1000, -10);
 
@@ -122,7 +122,7 @@
 					});
 
 				});
-			
+
 			}
 
 	});
