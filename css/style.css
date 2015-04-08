@@ -82,7 +82,8 @@
 		letter-spacing: 0.025em;
 	}
 
-	h4 em {
+	h4 em,
+	div em {
 		font-style: italic;
 	}
 
