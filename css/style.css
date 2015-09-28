@@ -111,6 +111,10 @@
 		padding: 1em 0 1em 2em;
 	}
 
+	div.space, h4.space {
+		padding-top: 1em;
+	}
+
 /* Section/Article */
 
 	section.special, article.special {
@@ -290,6 +294,11 @@
 				display: block;
 				width: 100%;
 			}
+
+	img.map {
+    width:350px;
+    height: auto;
+	}
 
 /* Icon */
 
